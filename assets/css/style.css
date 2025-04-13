@@ -479,14 +479,26 @@ main {
 .navbar-link {
   color: var(--light-gray);
   font-size: var(--fs-8);
-  padding: 20px 7px;
-  transition: color var(--transition-1);
+  padding: 10px 14px;
+  font-weight: 400;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
 }
 
+/* Hover 效果：变色或下划线 */
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus {
+  color: var(--white-2);
+  text-decoration: underline;
+}
 
-.navbar-link.active { color: var(--orange-yellow-crayola); }
+/* Active 效果：背景为淡灰色，字体加粗 */
+.navbar-link.active {
+  background-color: #f2f2f2; /* 可用 var(--onyx) 替换以统一变量 */
+  font-weight: 600;
+  color: var(--white-1);
+}
+
 
 
 
