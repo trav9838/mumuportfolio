@@ -63,7 +63,7 @@
   --smoky-black: #ffffff; /* ✅ 白背景 */
   --white-1: #111111; /* ✅ 主文字改深灰黑 */
   --white-2: #333333; /* ✅ 次要文字改深灰 */
-  --orange-yellow-crayola: #008060; /* ✅ 可选强调色（绿色） */
+  --orange-yellow-crayola: #111111 /* ✅ 可选强调色（黑色） */
   --vegas-gold: #666666; /* ✅ 用于辅助文字 */
   --light-gray: #cccccc;
   --light-gray-70: rgba(200, 200, 200, 0.7);
