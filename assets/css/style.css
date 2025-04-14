@@ -173,10 +173,15 @@ article {
 }
 
 .separator {
-  width: 100%;
   height: 1px;
-  background: var(--jet);
+  background: var(--jet); /* 或者统一替换回这个 */
   margin: 16px 0;
+  border-radius: 0;
+  transition: none;
+}
+
+.separator::before {
+  content: none; /* 移除伪元素 */
 }
 
 .icon-box {
