@@ -1894,13 +1894,17 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-/* logo-2 显示为灰色，悬停恢复原色 */
-.logo-2 {
-  filter: grayscale(100%) brightness(0.75);
-  transition: filter 0.3s ease;
+
+.has-scrollbar {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
 }
 
-.logo-2:hover {
-  filter: none;
+.testimonials-list,
+.clients-list {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
-
