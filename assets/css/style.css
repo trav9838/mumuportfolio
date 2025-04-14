@@ -147,8 +147,8 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
-  color: var(--smoky-black);
+  background: #cce4ff; /* 浅蓝背景 */
+  color: #111111;      /* 深灰黑文字 */
 }
 
 :focus { outline-color: var(--orange-yellow-crayola); }
