@@ -1838,13 +1838,12 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    position: sticky;
-    top: 60px;
-    max-height: max-content;
-    height: 100%;
-    margin-bottom: 0;
-    padding-top: 60px;
-    z-index: 1;
+  position: relative;
+  top: auto;
+  max-height: unset;
+  height: auto;
+  padding-top: 0;
+  z-index: auto;
   }
 
   .sidebar-info { flex-direction: column; }
