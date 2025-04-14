@@ -157,3 +157,26 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// ========== Responsive Separator Animation ==========
+function createScrollResponsiveSeparator(listSelector, separatorId) {
+  const scrollContainer = document.querySelector(listSelector);
+  const separator = document.getElementById(separatorId);
+
+  if (!scrollContainer || !separator) return;
+
+  scrollContainer.addEventListener('scroll', () => {
+    const scrollWidth = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+    const scrollLeft = scrollContainer.scrollLeft;
+
+    // Calculate percentage scrolled
+    const scrollPercent = scrollLeft / scrollWidth;
+
+    // Apply linear gradient from left to right based on scroll
+    separator.style.background = `linear-gradient(to right, #111111 ${scrollPercent * 100}%, #e0e0e0 ${scrollPercent * 100}%)`;
+  });
+}
+
+// Hook them up
+createScrollResponsiveSeparator(".testimonials-list", "separator-testimonials");
+createScrollResponsiveSeparator(".clients-list", "separator-clients");
