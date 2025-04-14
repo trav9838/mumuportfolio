@@ -178,7 +178,7 @@ article {
 .separator {
   width: 100%;
   height: 1px;
-  background: var(--jet);
+  background: var(--jet: #999999; /* 更深的灰色 */);
   margin: 16px 0;
 }
 
