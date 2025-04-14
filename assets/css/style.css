@@ -65,8 +65,8 @@
   --white-2: #333333; /* ✅ 次要文字改深灰 */
   --orange-yellow-crayola: #111111； /* ✅ 可选强调色（黑色） */
   --vegas-gold: #666666; /* ✅ 用于辅助文字 */
-  --light-gray: #cccccc;
-  --light-gray-70: rgba(200, 200, 200, 0.7);
+  --light-gray: #666666; /* 或者 #555，调深一点 */
+  --light-gray-70: rgba(80, 80, 80, 0.9);  /* 更接近黑色的半透明灰 */
   --bittersweet-shimmer: #999999; /* ❗️不建议频繁用红色强调 */
 
   /**
