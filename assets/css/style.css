@@ -1889,3 +1889,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* logo-2 显示为灰色，悬停恢复原色 */
+.logo-2 {
+  filter: grayscale(100%) brightness(0.75);
+  transition: filter 0.3s ease;
+}
+
+.logo-2:hover {
+  filter: none;
+}
+
