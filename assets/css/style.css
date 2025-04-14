@@ -162,16 +162,7 @@ body { background: var(--smoky-black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
-/* 让 sidebar 保持白色背景 */
-.sidebar {
-  background: #ffffff; /* 或者 transparent 看你喜好 */
-  border: 1px solid var(--jet);
-  border-radius: 20px;
-  padding: 15px;
-  box-shadow: var(--shadow-1);
-  z-index: 1;
-}
-
+.sidebar,
 article {
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
@@ -182,11 +173,14 @@ article {
 }
 
 .separator {
-  height: 4px;
-  background: linear-gradient(to right, #e0e0e0 0%, #e0e0e0 0%);
-  margin-top: 24px;
-  border-radius: 2px;
-  transition: background 0.3s ease;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, #d1d1d1 0%, #000000 100%);
+  margin: 40px 0;
+  transition: background-position 0.3s ease;
+  background-size: 200% auto;
+  background-position: left center;
+  border-radius: 999px;
 }
 
 
@@ -1838,12 +1832,13 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-  position: relative;
-  top: auto;
-  max-height: unset;
-  height: auto;
-  padding-top: 0;
-  z-index: auto;
+    position: sticky;
+    top: 60px;
+    max-height: max-content;
+    height: 100%;
+    margin-bottom: 0;
+    padding-top: 60px;
+    z-index: 1;
   }
 
   .sidebar-info { flex-direction: column; }
@@ -1894,17 +1889,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-
-.has-scrollbar {
-  display: flex;
-  overflow-x: auto;
-  gap: 20px;
-  padding-bottom: 10px;
-  scroll-snap-type: x mandatory;
+/* logo-2 显示为灰色，悬停恢复原色 */
+.logo-2 {
+  filter: grayscale(100%) brightness(0.75);
+  transition: filter 0.3s ease;
 }
 
-.testimonials-list,
-.clients-list {
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
+.logo-2:hover {
+  filter: none;
 }
+
