@@ -263,7 +263,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: rgba(80, 80, 80, 0.9);
+  background: #e6e6e6;
   border-radius: 5px;
 }
 
@@ -1787,7 +1787,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar { width: 20px; }
 
-  body::-webkit-scrollbar-track { background: rgba(80, 80, 80, 0.9); }
+  body::-webkit-scrollbar-track { background: #e6e6e6; }
 
   body::-webkit-scrollbar-thumb {
     border: 5px solid #d6b36f;
