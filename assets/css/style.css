@@ -1896,13 +1896,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-/* logo-2 显示为灰色，悬停恢复原色 */
-.logo-2 {
-  filter: grayscale(100%) brightness(0.75);
-  transition: filter 0.3s ease;
+/* 隐藏顶部导航按钮 */
+.navbar-link[data-nav-link]:nth-child(2),  /* Resume */
+.navbar-link[data-nav-link]:nth-child(3),  /* Portfolio */
+.navbar-link[data-nav-link]:nth-child(4)   /* Blog */
+{
+  display: none !important;
 }
 
-.logo-2:hover {
-  filter: none;
-}
 
