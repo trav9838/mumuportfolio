@@ -263,12 +263,12 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: #e6e6e6; /* 页面里滑动条*/
+  background: #d6b36f; /* 页面里滑动条*/
   border-radius: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: #d6b36f; /* 改的是页面里滑动条 */
+  background: #e6e6e6; /* 改的是页面里滑动条 */
   border-radius: 5px;
 }
 
