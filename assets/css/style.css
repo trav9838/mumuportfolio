@@ -1,4 +1,4 @@
-/*-----------------------------------*\
+ /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
 
@@ -268,7 +268,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: #e6e6e6; /* 改的是页面里滑动条 */
+  background: #d6b36f; /* 改的是页面里滑动条 */
   border-radius: 5px;
 }
 
