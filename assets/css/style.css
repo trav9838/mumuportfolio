@@ -1787,7 +1787,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar { width: 20px; }
 
-  body::-webkit-scrollbar-track { background: #e6e6e6; }
+  body::-webkit-scrollbar-track { background: #939393; }
 
   body::-webkit-scrollbar-thumb {
     border: 5px solid #d6b36f;
