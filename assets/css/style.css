@@ -1785,15 +1785,17 @@ textarea.form-input::-webkit-resizer { display: none; }
    * RESET
    */
 
-  body::-webkit-scrollbar { width: 20px; }
+  body::-webkit-scrollbar { width: 10px; }
 
   body::-webkit-scrollbar-track { background: #e6e6e6; }
 
-body::-webkit-scrollbar-thumb {
-  background-color: #555; /* 实心深灰 */
+  body::-webkit-scrollbar-thumb {
+  background-color: #d6b36f; /* 实心金色 */
+  background: hsla(0, 0%, 100%, 0.1);
   border-radius: 20px;
-  border: none;
-}
+  box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+              inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+}	
 
   body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
 
@@ -1894,12 +1896,5 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-/* 隐藏顶部导航按钮 */
-.navbar-link[data-nav-link]:nth-child(2),  /* Resume */
-.navbar-link[data-nav-link]:nth-child(3),  /* Portfolio */
-.navbar-link[data-nav-link]:nth-child(4)   /* Blog */
-{
-  display: none !important;
-}
 
 
