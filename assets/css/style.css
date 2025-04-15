@@ -253,7 +253,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background:linear-gradient(to right, #d6b36f, #f2e6c5); /* about 下面的那个深金 → 淡金 */
+  background:linear-gradient(to right, #f2e6c5,#d6b36f); /* about 下面的那个深金 → 淡金 */
   border-radius: 3px;
 }
 
@@ -877,7 +877,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: var(--text-gradient-yellow);
+  background: linear-gradient(to right,#f2e6c5,#d6b36f);
   height: 100%;
   border-radius: inherit;
 }
