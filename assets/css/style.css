@@ -1196,8 +1196,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn {
   position: relative;
   width: 100%;
-  background: var(--border-gradient-onyx);
-  color: var(--orange-yellow-crayola);
+  background: #ffffff; /* 白色背景 */
+  color: #111111;       /* 深灰黑文字 */
   display: flex;
   justify-content: center;
   align-items: center;
