@@ -1790,7 +1790,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   body::-webkit-scrollbar-track { background: #e6e6e6; }
 
   body::-webkit-scrollbar-thumb {
-    border: 5px solid #e0e0e0;
+    border: 5px solid #d6b36f;
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
     box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
