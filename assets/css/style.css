@@ -263,13 +263,13 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: #e6e6e6;
-  border-radius: 5px;
+  background: none;
+  border-radius: none;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: #d6b36f;
-  border-radius: 5px;
+  background: #e6e6e6;
+  border-radius: none;
 }
 
 .has-scrollbar::-webkit-scrollbar-button { width: 20px; }
