@@ -1785,17 +1785,17 @@ textarea.form-input::-webkit-resizer { display: none; }
    * RESET
    */
 
-  body::-webkit-scrollbar { width: 10px; }
+  body::-webkit-scrollbar { width: 20px; }
 
   body::-webkit-scrollbar-track { background: #e6e6e6; }
 
   body::-webkit-scrollbar-thumb {
   background-color: #d6b36f; /* 实心金色 */
-  background: hsla(0, 0%, 100%, 0.1);
   border-radius: 20px;
-  box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
-              inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
-}	
+  border: none; /* 移除边框 */
+  box-shadow: none; /* 移除内部阴影 */
+}
+
 
   body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
 
