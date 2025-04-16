@@ -364,40 +364,32 @@ main {
   border-radius: 8px;
 }
 
- .info_more-btn {
+.info_more-btn {
   position: absolute;
   top: -15px;
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: #111111; /* 深灰黑字 */
-  background: #ffffff; /* 默认白色背景 */
+  color: #111111; /* 字体颜色 */
+  background: linear-gradient(to right, #f2e6c5, #d6b36f); /* 金色渐变 */
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
-  }
-  .info_more-btn::before {
-  content: "";
-  position: absolute;
-  inset: 1px;
-  border-radius: inherit;
-  background: var(--bg-gradient-jet);
-  transition: var(--transition-1);
-  z-index: -1;}
+}
 
-  .info_more-btn:hover,
-.info_more-btn:focus {
-  background: linear-gradient(to right, #f2e6c5, #d6b36f); /* 金色渐变 */
+.info_more-btn::before {
+  content: none; /* 去掉黑色背景遮罩 */
 }
 
 .info_more-btn:hover,
-.info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
+.info_more-btn:focus {
+  filter: brightness(1.05); /* 简单的 hover 效果 */
+}
 
-.info_more-btn:hover::before,
-.info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
-
-.info_more-btn span { display: none; }
+.info_more-btn span {
+  display: none;
+}
 
 .sidebar-info_more {
   opacity: 0;
