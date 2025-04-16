@@ -331,11 +331,12 @@ main {
   color: #111111; /* 深灰黑字 */
   background: #ffffff; /* 默认白色背景 */
   padding: 10px;
+  box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
   }
   .info_more-btn::before {
- none
+ content: none !important; /* ✅ 彻底移除黑色伪元素 */
 }
   .info_more-btn:hover,
 .info_more-btn:focus {
