@@ -323,8 +323,27 @@ main {
   }
 
   .info_more-btn {
-    display: none;
+      position: absolute;
+  top: -15px;
+  right: -15px;
+  border-radius: 0 15px;
+  font-size: 13px;
+  color: #111111; /* 深灰黑字 */
+  background: linear-gradient(to right, #f2e6c5, #d6b36f); /* 🌟金色渐变 */
+  padding: 10px;
+  box-shadow: var(--shadow-2);
+  transition: var(--transition-1);
+  z-index: 1;
   }
+	.info_more-btn::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background: transparent; /* ❌ 不需要覆盖渐变背景了 */
+  transition: var(--transition-1);
+  z-index: -1;
+}
 
   .sidebar-info_more {
     opacity: 1;
