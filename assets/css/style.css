@@ -1911,5 +1911,34 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 }
 
+/* 强制 sidebar 始终固定在左侧 */
+.sidebar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  height: 100vh !important;
+  width: 300px !important;
+  z-index: 100 !important;
+  overflow-y: auto !important;
+  border-radius: 0 20px 20px 0 !important;
+  box-shadow: var(--shadow-5) !important;
+}
+
+/* 主内容向右偏移，避免被 sidebar 遮住 */
+.main-content {
+  margin-left: 320px !important;
+  width: calc(100% - 320px) !important;
+}
+
+/* 隐藏按钮并强制显示 contact */
+.info_more-btn {
+  display: none !important;
+}
+
+.sidebar-info_more {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 
 
