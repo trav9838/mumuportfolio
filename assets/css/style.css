@@ -329,13 +329,13 @@ main {
   border-radius: 0 15px;
   font-size: 13px;
   color: #111111; /* 深灰黑字 */
-  background: linear-gradient(to right, #f2e6c5, #d6b36f); /* 🌟金色渐变 */
+  background: #ffffff; /* 默认白色背景 */
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
   }
-	.info_more-btn::before {
+  .info_more-btn::before {
   content: "";
   position: absolute;
   inset: 1px;
@@ -344,7 +344,17 @@ main {
   transition: var(--transition-1);
   z-index: -1;
 }
+  .info_more-btn:hover,
+.info_more-btn:focus {
+  background: linear-gradient(to right, #f2e6c5, #d6b36f); /* 金色渐变 */
+}
 
+.info_more-btn:hover::before,
+.info_more-btn:focus::before {
+  background: transparent; /* 保持透明 */
+}
+
+	
   .sidebar-info_more {
     opacity: 1;
     visibility: visible;
