@@ -1891,4 +1891,25 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
+@media (max-width: 1250px) {
+  .sidebar {
+    position: sticky !important;
+    top: 60px !important;
+    max-height: max-content !important;
+    height: 100% !important;
+    margin-bottom: 0 !important;
+    padding-top: 60px !important;
+  }
+
+  .info_more-btn {
+    display: none !important;
+  }
+
+  .sidebar-info_more {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
+
+
 
