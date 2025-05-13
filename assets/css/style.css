@@ -964,7 +964,7 @@ main {
 .project-img {
   position: relative;
   width: 100%;
-  height: 240px;  /* ✅ 统一封面高度，避免内容跳动 */
+  aspect-ratio: 4 / 3;  /* ✅ 统一封面高度，避免内容跳动 */
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
