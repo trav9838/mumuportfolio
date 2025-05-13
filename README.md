@@ -1,44 +1,61 @@
-# vCard - Personal portfolio
+# Travis Lin · Data & Marketing Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+🎯 **Welcome!** This is the personal portfolio site of [Travis Lin](https://www.linkedin.com/in/travislin), a Data & Marketing Analyst based in Vancouver, BC. My work lies at the intersection of **data analysis**, **automation**, **modeling**, and **design** — helping businesses and organizations make smarter, faster, and clearer decisions with their data.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+🔗 **Live Portfolio Site**: [trav9838.github.io/mumuportfolio](https://trav9838.github.io/mumuportfolio/)
 
-## Demo
+---
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## 🔍 Highlights
 
-## Prerequisites
+### 🧠 Data Analysis
+- **Canadian Mortgage Rate Analysis (Excel)**  
+  Visualized trends in Canadian 5-year conventional mortgage rates from 1951–2024 using Excel and Power Query for public housing research.
+- **AARRR & RFM User Segmentation**  
+  Clustered e-commerce users based on behavior using Python and pandas; integrated similarity scoring and persona analysis.
 
-Before you begin, ensure you have met the following requirements:
+### ⚙️ Report Automation
+- **Hutchison Ports Deal Dashboard (Power BI)**  
+  Built a dashboard analyzing Li Ka-shing's port asset strategy under tariff shocks using custom tooltip maps, KPI tracking, and live filters.
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+### ✨ Content Design
+- **JYC Marketing Strategy**  
+  Designed and executed a bilingual pitch deck (EN/ZH) for a construction group, merging data-driven storytelling and brand-aligned layout.
 
-## Installing vCard
+### 🧪 Model Building
+- **Similarity-Based RFM Clustering (Python)**  
+  Implemented behavioral clustering on RFM vectors and cosine similarity for retention-focused decision-making.
 
-To install **vCard**, follow these steps:
+---
 
-Linux and macOS:
+## 🛠️ Tech Stack & Tools
+
+| Area              | Tools & Skills |
+|-------------------|----------------|
+| **Data Analysis** | Python (pandas, matplotlib), SQL, R |
+| **BI & Automation** | Power BI, Excel, Power Query |
+| **Modeling**      | Scikit-learn, RFM, Segmentation |
+| **Design**        | Adobe Illustrator, Figma, Canva, Notion |
+| **Web**           | HTML, CSS, JavaScript, GitHub Pages |
+
+---
+
+## 📌 Project Structure
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+mumuportfolio/
+├── assets/               # Images, icons, styles
+├── index.html            # Homepage (About)
+├── portfolio.html        # Portfolio tab
+├── resume.html           # Resume section
+├── blog.html             # Blog posts (if activated)
+├── contact.html          # Contact form with FormSubmit
+└── README.md             # This file
 
-Windows:
+📫 Contact
+📧 Email: liny3416@gmail.com
+🌐 Website: trav9838.github.io/mumuportfolio
+💼 LinkedIn: linkedin.com/in/travislin
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-## License
-
-MIT
+📝 License
+This portfolio is for personal and demonstration purposes only. Please do not reuse without permission.
