@@ -964,7 +964,7 @@ main {
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
+  aspect-ratio: 4 / 3;  /* ✅ 新增：自动根据比例算高度 */
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
